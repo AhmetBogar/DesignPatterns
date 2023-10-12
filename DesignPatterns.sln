@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibilityDesignPattern", "ChainOfResponsibilityDesignPattern", "{149F8968-D6DE-4BBB-A6E6-2A4ECF7B4FE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ChainOfResponsibility", "ChainOfResponsibilityDesignPattern\DesignPattern.ChainOfResponsibility\DesignPattern.ChainOfResponsibility.csproj", "{13D5BE76-7A76-43B8-B29F-9F5CB27988FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSDesignPattern", "CQRSDesignPattern", "{41276F70-6A82-42D6-A68F-315A6F283394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CQRS", "CQRSDesignPattern\DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{D6735E1D-1EEA-4EF1-8355-A815C8543DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13D5BE76-7A76-43B8-B29F-9F5CB27988FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D5BE76-7A76-43B8-B29F-9F5CB27988FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D5BE76-7A76-43B8-B29F-9F5CB27988FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D5BE76-7A76-43B8-B29F-9F5CB27988FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6735E1D-1EEA-4EF1-8355-A815C8543DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6735E1D-1EEA-4EF1-8355-A815C8543DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6735E1D-1EEA-4EF1-8355-A815C8543DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6735E1D-1EEA-4EF1-8355-A815C8543DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13D5BE76-7A76-43B8-B29F-9F5CB27988FD} = {149F8968-D6DE-4BBB-A6E6-2A4ECF7B4FE3}
+		{D6735E1D-1EEA-4EF1-8355-A815C8543DAB} = {41276F70-6A82-42D6-A68F-315A6F283394}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D1DB001-2B0F-4690-8D8C-9D527F9AC6EC}
+	EndGlobalSection
+EndGlobal
